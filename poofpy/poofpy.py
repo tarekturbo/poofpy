@@ -1,7 +1,7 @@
 import requests
 import json
-import pypoof.Responses as Responses
-from pypoof.Enums import *
+import poofpy.Responses as Responses
+from poofpy.Enums import *
 class Poof:
     def __init__(self,api_key) -> None:
         self.__access_token = api_key

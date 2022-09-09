@@ -9,7 +9,7 @@ except(IOError, ImportError):
     long_description = open('README.md').read()
 setup(
     name='poofpy',
-    version='0.1',
+    version='0.3',
     license='MIT',
     author="Tarook (Tarek)",
     author_email='tarekthedream@gmail.com',
