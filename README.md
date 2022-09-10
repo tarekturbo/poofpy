@@ -12,8 +12,8 @@ pip install poofpy
 ### Examples
 #### Set your api key
 ```python
-from poofpy import poof 
-client = poof("your api key here")
+from poofpy import Poof
+client = Poof("your api key here")
 
 ``` 
 #### Creating crypto invoice 
